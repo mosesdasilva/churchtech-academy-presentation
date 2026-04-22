@@ -59,9 +59,15 @@ Avoid:
    Training needs by church size
 
 7. Scope and Reach
-   Geographic opportunity and team advantage
+   Geographic opportunity and team advantage, with an abstract reach-network visual to support the scale metrics
 
-8. Closing Summary
+8. Goals
+   Five ministry goals: accessibility, excellence, empowerment, Kingdom impact, prayer
+
+9. Objectives
+   Condensed implementation objectives grouped under each ministry goal
+
+10. Closing Summary
    Final proposal summary and restated impact
 
 ## Content Source
@@ -95,6 +101,11 @@ On any machine:
 - Consider adding subtle iconography where empty areas need structure
 - Keep checking that slides feel presentation-ready on both desktop and laptop screens
 - If needed later, create a cleaner print/export version separate from the live presentation
+
+## Recent Decisions
+
+- The Step 3 and Step 4 slides now use content labels in the eyebrow area: `Goals` and `Objectives`
+- The Scope and Reach slide now fills the lower-left panel area with an abstract network-style visual instead of leaving open empty space
 
 ## If A New Codex Session Picks This Up
 
