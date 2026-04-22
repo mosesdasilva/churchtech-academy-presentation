@@ -66,7 +66,7 @@ Avoid:
 
 ## Content Source
 
-The presentation content is based on [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt).
+The presentation content is based on [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md).
 
 If new slides or wording are added, they should remain aligned with that document unless the user explicitly wants a rewrite.
 
@@ -102,7 +102,7 @@ Read these files first:
 
 1. [README.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/README.md)
 2. [PROJECT_NOTES.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/PROJECT_NOTES.md)
-3. [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt)
+3. [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md)
 
 Then inspect:
 

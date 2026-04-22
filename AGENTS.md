@@ -10,7 +10,7 @@ Before making changes, read these files in order:
 
 1. [README.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/README.md)
 2. [PROJECT_NOTES.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/PROJECT_NOTES.md)
-3. [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt)
+3. [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md)
 
 Then inspect:
 
@@ -68,7 +68,7 @@ When working on this repo:
 
 - Prefer small, targeted edits over large rewrites.
 - Preserve slide structure unless a structural change is requested.
-- Keep content aligned with [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt) unless the user asks for rewriting.
+- Keep content aligned with [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md) unless the user asks for rewriting.
 - If adding visual elements, ensure they support the message and do not create clutter.
 - If a section has too much empty space, prefer structured visual systems over random filler.
 

@@ -21,7 +21,7 @@ The design direction is:
 - [index.html](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/index.html): main presentation structure
 - [styles.css](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/styles.css): visual design, layout, and animations
 - [script.js](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/script.js): slide navigation and fullscreen behavior
-- [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt): original ministry content source used to build the presentation
+- [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md): original ministry content source used to build the presentation
 - [PROJECT_NOTES.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/PROJECT_NOTES.md): working context and design decisions for future edits
 
 ## How To Open The Presentation
@@ -59,7 +59,7 @@ Generated examples and exports are intentionally ignored:
 
 Before making changes:
 
-1. Read [Documentation.txt](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/Documentation.txt)
+1. Read [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md)
 2. Read [PROJECT_NOTES.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/PROJECT_NOTES.md)
 3. Preserve the visual direction unless there is a clear reason to change it
 
