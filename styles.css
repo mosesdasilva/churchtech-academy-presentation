@@ -568,6 +568,7 @@ button {
 }
 
 .reach-link {
+  z-index: 1;
   height: 2px;
   transform-origin: left center;
   background: linear-gradient(90deg, rgba(74, 179, 255, 0.18), rgba(123, 224, 255, 0.95), rgba(74, 179, 255, 0.18));
@@ -576,26 +577,27 @@ button {
 
 .link-dallas-texas {
   top: 50%;
-  left: 18%;
-  width: 16%;
+  left: calc(10% + 2.75rem);
+  width: calc(26.67% - 5.5rem);
   transform: translateY(-50%);
 }
 
 .link-texas-us {
   top: 50%;
-  left: 41%;
-  width: 14%;
+  left: calc(36.67% + 2.75rem);
+  width: calc(26.66% - 5.5rem);
   transform: translateY(-50%);
 }
 
 .link-us-latam {
   top: 50%;
-  left: 61%;
-  width: 16%;
+  left: calc(63.33% + 2.75rem);
+  width: calc(26.67% - 5.5rem);
   transform: translateY(-50%);
 }
 
 .reach-pulse {
+  z-index: 0;
   width: 8.2rem;
   height: 8.2rem;
   border-radius: 50%;
@@ -611,25 +613,26 @@ button {
 
 .pulse-dallas {
   top: 50%;
-  left: 14%;
+  left: 10%;
 }
 
 .pulse-texas {
   top: 50%;
-  left: 37%;
+  left: 36.67%;
 }
 
 .pulse-us {
   top: 50%;
-  left: 59%;
+  left: 63.33%;
 }
 
 .pulse-latam {
   top: 50%;
-  left: 82%;
+  left: 90%;
 }
 
 .reach-node {
+  z-index: 2;
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 50%;
@@ -657,22 +660,22 @@ button {
 
 .node-dallas {
   top: 50%;
-  left: 14%;
+  left: 10%;
 }
 
 .node-texas {
   top: 50%;
-  left: 37%;
+  left: 36.67%;
 }
 
 .node-us {
   top: 50%;
-  left: 59%;
+  left: 63.33%;
 }
 
 .node-latam {
   top: 50%;
-  left: 82%;
+  left: 90%;
 }
 
 .closing {
