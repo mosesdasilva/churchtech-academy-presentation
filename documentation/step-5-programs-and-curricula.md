@@ -32,7 +32,7 @@ In addition to the main curriculum, ChurchTech Academy will build supporting pro
 
 One of these programs will be a Volunteer Onboarding Program. This program will serve as a clear entry track for first-time team members who are new to church production. It will help new volunteers understand the basics of serving, the expectations of ministry teams, and the first concepts they need to know before taking on greater responsibility.
 
-Another program will be Role-Based Ministry Pathways. These pathways will guide learners through specific ministry areas such as audio, video, lighting, stage support, and leadership. Each pathway will function like a roadmap, showing the key concepts, skills, and responsibilities that a student needs to understand in order to improve in that area. This structure will help learners see a clear progression instead of feeling lost or unsure about what to learn next.
+Another program will be Role-Based Ministry Pathways. These pathways will guide learners through specific ministry areas such as audio, video, lighting, worship leading, worship ministry, and leadership. Each pathway will function like a roadmap, showing the key concepts, skills, and responsibilities that a student needs to understand in order to improve in that area. This structure will help learners see a clear progression instead of feeling lost or unsure about what to learn next.
 
 ChurchTech Academy also plans to build a Leadership Development Program for those who will oversee teams, train volunteers, and multiply ministry capacity in their churches. This program will focus on preparing department leaders who can guide others, maintain healthy team culture, and strengthen the consistency and effectiveness of church production ministries.
 

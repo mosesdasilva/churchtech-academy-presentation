@@ -221,27 +221,37 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 
 ## Step 5 - Programs and Curricula
 
-ChurchTech Academy will build its programs around an original curriculum developed by ministry practitioners who already serve in real church production environments. Rather than relying on outside curriculum as the main teaching foundation, the ministry will create training that reflects the day-to-day realities of live worship services, volunteer teams, service preparation, troubleshooting, and ministry communication. This approach allows the curriculum to stay practical, ministry-specific, and closely aligned with the mission, vision, goals, and biblical principles of ChurchTech Academy.
+ChurchTech Academy will use an original curriculum built by ministry practitioners with real church production experience. The curriculum will stay practical, ministry-specific, and aligned with the mission, vision, goals, and biblical principles of the ministry. Outside resources may be recommended only as hand-picked optional supplements, not as the main curriculum.
 
-The curriculum will be distinct because it will emphasize practical ministry application rather than theory alone. Students will not only learn production concepts, but also see how those concepts function in real church settings. The teaching approach will follow a learn-by-doing model, helping volunteers and leaders grow through clear demonstration, practical examples, and real ministry situations that can be applied directly in church service.
+The teaching model will focus on practical application rather than theory alone. Training will be delivered through a video-based course system built around real church service situations.
 
-The main training content will be packaged as a video-based course system organized into core ministry areas such as audio, video and broadcast, lighting, stage and service support, and leadership development. Each department will be structured in four levels:
+### Core Program Areas
+
+- Audio
+- Video and broadcast
+- Lighting
+- Worship leading and worship ministry
+- Leadership development
+
+### Training Levels
 
 1. **Beginner**  
-   For first-time volunteers and new learners, including those starting in simpler ministry environments such as kids ministry, youth ministry, or entry-level support roles.
+   First-time volunteers and entry-level service roles.
 
 2. **Intermediate**  
-   For developing volunteers who are becoming more consistent in service and need stronger technical understanding and ministry habits.
+   Developing volunteers building consistency and stronger technical habits.
 
 3. **Advanced**  
-   For volunteers serving in the main service environment who need reliability, troubleshooting ability, and greater responsibility in weekly church gatherings.
+   Main-service volunteers carrying greater weekly responsibility.
 
 4. **Leadership**  
-   For department leaders who oversee teams, develop volunteers, and carry responsibility for the health and direction of each ministry area.
+   Department leaders who train teams and oversee ministry areas.
 
-In addition to the main curriculum, ChurchTech Academy will use supporting programs that help churches apply the training in a clear and organized way. These programs will include a Volunteer Onboarding Program, Role-Based Ministry Pathways, and a Leadership Development Program. Together, these pathways will help students understand where to begin, what to learn next, and how to grow from entry-level service into dependable ministry leadership.
+### Supporting Programs
 
-ChurchTech Academy may also create roadmap-style guides that visually outline the key concepts and stages of growth within each ministry role. These guides will serve as support tools around the main curriculum, not as replacements for it. Where helpful, the ministry may recommend hand-picked outside resources such as articles, videos, or learning links, but only as optional supplements for students who want to study further on their own. These resources will not be required as part of the core curriculum.
+- Volunteer Onboarding Program
+- Role-Based Ministry Pathways
+- Leadership Development Program
 
 ---
 
