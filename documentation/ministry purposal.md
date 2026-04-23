@@ -273,7 +273,7 @@ To produce and deliver the training effectively, ChurchTech Academy will require
 - **Teaching equipment:** laptop, presentation monitor, projector or TV screen, internet access, microphones, and presentation slides.  
 - **Course materials:** lesson outlines, printable handouts, note sheets, checklists, training pathways, and certificates of completion.  
 - **Facilities:** recording space, editing workspace, and access to real church production environments for demonstrations and case studies.  
-- **Platform materials:** hosting infrastructure, course pages, user logins, multilingual subtitle or dubbing assets, and communication systems for subscribers.
+- **Platform materials:** hosting infrastructure, course pages, user logins, multilingual subtitle or dubbing assets, and communication systems for participants and partner churches.
 
 ---
 
@@ -284,10 +284,54 @@ ChurchTech Academy will require a clear ministry and business structure to suppo
 The Founding Director provides overall leadership and oversight for the ministry. The Operations Administrator reports to the Founding Director and manages the day-to-day coordination of ministry operations. The Production Team, Church Partnerships and Marketing, and Volunteer / Support Roles operate under the coordination of the Operations Administrator and function at the same organizational level.
 
 - **Founding Director (Executive Leadership):** protects the mission, vision, and biblical alignment of the ministry while guiding major business and ministry decisions.  
-- **Operations Administrator:** oversees scheduling, platform management, subscription systems, communication workflows, and administrative coordination.  
+- **Operations Administrator:** oversees scheduling, platform management, access systems, communication workflows, and administrative coordination.  
 - **Production Team:** handle filming, editing, graphics, audio quality, lesson delivery standards, and technical execution.  
 - **Church Partnerships and Marketing:** build relationships with churches, recruit pilot users, coordinate promotions, and gather market feedback.  
-- **Volunteer / Support Roles:** assist with logistics, translation support, moderation, customer communication, and event support when needed.
+- **Volunteer / Support Roles:** assist with logistics, translation support, moderation, participant communication, and event support when needed.
 
 ![Organizational flow chart for step seven](./chart_step_7.png)
+
+---
+
+## Evaluation
+
+ChurchTech Academy will be evaluated on a regular basis to determine whether the platform is achieving its spiritual, educational, and organizational goals.
+
+### **When Evaluation Will Begin**
+
+The first evaluation will begin immediately after the pilot phase and first course releases, once enough participants have completed lessons to provide useful feedback.
+
+### **How Often Evaluation Will Happen**
+
+- **Weekly:** informal internal review of production quality, content progress, and workflow bottlenecks.  
+- **Monthly:** review of participant engagement, lesson completion, church feedback, and platform performance.  
+- **Quarterly:** formal evaluation of course effectiveness, strategic goals, and ministry impact.  
+- **Annually:** high-level review of mission alignment, funding sustainability, curriculum growth, and expansion priorities.
+
+### **Evaluation Tools**
+
+- participant feedback forms  
+- course completion data  
+- engagement metrics such as watch time and retention  
+- church partner interviews  
+- team review meetings  
+- ministry support, operating cost, and funding reports
+
+### **Who Will Be Involved**
+
+Evaluation will involve executive leadership, operations leadership, curriculum and content leaders, selected instructors, and participating churches or users who provide direct feedback.
+
+### **Who Will Receive the Results**
+
+The results will be reviewed internally by leadership and shared in summary form with key team members, instructors, and strategic ministry partners as appropriate.
+
+### **Evaluation Questions**
+
+Key evaluation questions will include:
+
+- Are the lessons biblically aligned and spiritually healthy?  
+- Are the courses practical and clear for volunteers and church staff?  
+- Are participants completing the training and applying it in ministry settings?  
+- Which programs create the greatest impact for churches of different sizes?  
+- What technical, instructional, or organizational improvements are needed next?
 

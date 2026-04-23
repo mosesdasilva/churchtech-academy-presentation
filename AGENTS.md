@@ -81,6 +81,8 @@ Development process expectations:
 - Keep content aligned with [ministry purposal.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/ministry%20purposal.md) unless the user asks for rewriting.
 - If adding visual elements, ensure they support the message and do not create clutter.
 - If a section has too much empty space, prefer structured visual systems over random filler.
+- Use the Step 7 `Scope and Reach` slide as the vertical-fit guardrail for later dense slides; if a new slide feels taller than that baseline, shorten the heading before shrinking the rest of the content.
+- Treat title verbosity as the first thing to fix when a slide begins to crowd the bottom controls or dot navigation.
 
 ## Done Criteria
 

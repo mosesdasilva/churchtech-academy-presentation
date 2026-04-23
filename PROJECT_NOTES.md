@@ -51,6 +51,9 @@ Avoid:
 - Dense slides can be used carefully, but they should still feel presentation-ready and should not require the presenter to scroll.
 - Center slide content vertically when the composition benefits from it, especially when a slide has been tightened and no longer needs top alignment.
 - Use top alignment only when it materially improves fit or readability.
+- Use the Step 7 `Scope and Reach` slide as a vertical-fit guardrail for dense two-column operational slides because it currently fits the desktop presentation baseline cleanly without crowding the dot navigation.
+- For Step 6, Step 7, Step 8, and similar future slides, shorten the main title first before shrinking body copy; overly verbal titles consume too much height and are usually the first cause of overflow.
+- If a slide starts approaching the bottom controls, treat that as a hard warning sign and tighten the heading footprint, panel padding, or content grouping before allowing any overlap risk.
 
 ## Alignment And Symmetry Guidance
 
@@ -102,7 +105,10 @@ Avoid:
 13. Organization And Administration
    Reporting structure, key roles, and the Step 7 organizational chart
 
-14. Closing Summary
+14. Evaluation
+   Review cadence, evaluation tools, participants, and core evaluative questions from Step 8
+
+15. Closing Summary
    Final proposal summary and restated impact
 
 ## Content Source
@@ -153,6 +159,10 @@ On any machine:
 - The source proposal document now explicitly states the Step 7 reporting flow: `Founding Director` over `Operations Administrator`, with `Production Team`, `Church Partnerships and Marketing`, and `Volunteer / Support Roles` coordinated under the `Operations Administrator` at the same level
 - The presentation now includes dedicated Step 6 and Step 7 slides so `Method and Material` and `Organization and Administration` are represented in the live deck instead of only in the source proposal
 - The Step 7 slide now uses the manually added [chart_step_7.png](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/chart_step_7.png) asset, and the source proposal should reference that same image to keep the documentation and presentation aligned
+- The source proposal document now includes a completed Step 8 `Evaluation` section that answers the transcript prompts and the repo step checklist for timing, cadence, tools, participants, reporting, and evaluative questions
+- The presentation now includes a dedicated Step 8 `Evaluation` slide that uses the same panel-and-card visual language as Steps 6 and 7 so the review process is represented in the live deck before the closing summary
+- Step 6, Step 7, and Step 8 now use a reusable slide-size guardrail based on the Step 7 `Scope and Reach` footprint: tighter section headings, smaller title scale, and reduced internal spacing to protect no-scroll presentation fit
+- The ministry proposal wording should stay aligned with a free ministry model, so terms like `subscribers`, `subscription systems`, and `customer communication` should be avoided in favor of ministry-oriented participant and support language
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 - The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step
 
