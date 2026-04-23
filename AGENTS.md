@@ -64,6 +64,14 @@ When working on this repo:
 6. Commit with a clear message.
 7. Push changes.
 
+Development process expectations:
+
+- Work in small, reviewable commits throughout development instead of saving everything for one large commit.
+- Prefer TDD where practical: make the expected behavior clear first, implement the change, then verify it.
+- Follow XP-style development habits: small increments, fast feedback, continuous refactoring only when needed, and keeping the system working at each step.
+- Treat continuous integration as part of the workflow mindset: changes should stay easy to verify, integrate, and ship without large risky batches.
+- If a change becomes too large to review comfortably, split it into smaller steps before continuing.
+
 ## Editing Guidance
 
 - Prefer small, targeted edits over large rewrites.

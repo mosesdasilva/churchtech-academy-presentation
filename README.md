@@ -64,3 +64,11 @@ Before making changes:
 3. Preserve the visual direction unless there is a clear reason to change it
 
 The project should stay simple to run: no build step, no framework, no package install required.
+
+Presentation-fit guidance:
+
+- Treat desktop presentation view as a no-scroll baseline.
+- Do not assume a slide can safely scroll to reveal hidden content during live presentation.
+- If a slide starts feeling crowded, prefer splitting content across slides, shortening copy, tightening spacing, or simplifying supporting visuals.
+- Keep compositions visually aligned and as symmetrical as practical.
+- Elements do not need to be identical in size, but they should share consistent alignment, balanced spacing, and intentional visual relationships.

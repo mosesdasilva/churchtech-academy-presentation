@@ -38,6 +38,29 @@ Avoid:
   - `Strengthen`
   - `Reach`
 
+## Presentation Layout Rules
+
+- Desktop presentation view should be treated as a no-scroll baseline.
+- Slides should fit within the viewport during live presentation at the intended desktop/fullscreen baseline, rather than depending on vertical scrolling.
+- This is a design target for the chosen presentation baseline, not a universal guarantee across every screen size, browser chrome size, zoom level, or font-rendering environment.
+- If a slide feels crowded, prefer one of these fixes before allowing scroll:
+  1. shorten copy
+  2. reduce internal spacing
+  3. simplify or resize supporting visuals
+  4. split the content into an additional slide
+- Dense slides can be used carefully, but they should still feel presentation-ready and should not require the presenter to scroll.
+- Center slide content vertically when the composition benefits from it, especially when a slide has been tightened and no longer needs top alignment.
+- Use top alignment only when it materially improves fit or readability.
+
+## Alignment And Symmetry Guidance
+
+- Favor symmetrical placement and balanced compositions whenever possible.
+- Not every element needs to be the exact same size, but nearby elements should align intentionally with each other.
+- When positioning panels, diagrams, cards, or metric groups, use consistent edges, shared centerlines, or evenly distributed spacing.
+- When calculating percentages, widths, offsets, or node positions, prefer values that create a clear visual rhythm and balanced relationships across the slide.
+- Avoid layouts that feel accidentally shifted, unevenly weighted, or loosely placed.
+- If asymmetry is used, it should feel deliberate and still anchor to a readable alignment system.
+
 ## Current Slide Structure
 
 1. Opening
@@ -67,7 +90,13 @@ Avoid:
 9. Objectives
    Condensed implementation objectives grouped under each ministry goal
 
-10. Closing Summary
+10. Programs And Curricula
+   Core program areas: audio, video and broadcast, lighting, worship ministry, leadership development
+
+11. Training Pathways
+   Training levels and supporting programs
+
+12. Closing Summary
    Final proposal summary and restated impact
 
 ## Content Source
@@ -100,12 +129,19 @@ On any machine:
 - Continue refining spacing and balance on the Vision / Mission slide
 - Consider adding subtle iconography where empty areas need structure
 - Keep checking that slides feel presentation-ready on both desktop and laptop screens
+- Keep checking slide symmetry, alignment rhythm, and balanced spacing whenever panels or diagrams are repositioned
 - If needed later, create a cleaner print/export version separate from the live presentation
 
 ## Recent Decisions
 
 - The Step 3 and Step 4 slides now use content labels in the eyebrow area: `Goals` and `Objectives`
 - The Scope and Reach slide now fills the lower-left panel area with an abstract network-style visual instead of leaving open empty space
+- The Vision and Goals slides now use a dense-slide treatment so they top-align and scroll within the viewport instead of clipping on some Mac browser sizes
+- A new Step 5 `Programs And Curricula` slide now extends the same panel-and-card design language instead of introducing a separate layout style
+- Step 5 is now split across two slides so the curriculum overview and training pathways are easier to present live
+- Desktop presentation view now targets no-scroll slides, with Vision and Goals tightened first; full no-scroll behavior should be treated as a baseline-size target rather than a universal guarantee across every screen and zoom level
+- The Programs slide now leads directly with the core-area cards, and the Vision and Goals slides are explicitly centered again within the no-scroll desktop presentation baseline
+- Future layout edits should preserve symmetry and alignment discipline across cards, panels, diagrams, and percentage-based positioning so slides feel balanced instead of loosely placed
 
 ## If A New Codex Session Picks This Up
 
@@ -124,3 +160,9 @@ Then inspect:
 Goal for future edits:
 
 Preserve the current presentation concept and extend it carefully instead of redesigning it from scratch.
+
+For layout decisions, prioritize:
+
+1. no-scroll presentation fit at the chosen desktop baseline
+2. strong alignment and practical symmetry
+3. readability before adding more content
