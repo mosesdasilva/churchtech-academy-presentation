@@ -39,6 +39,10 @@ Presentation controls:
 
 This repo now includes a GitHub Actions workflow at [.github/workflows/deploy-pages.yml](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/.github/workflows/deploy-pages.yml) to deploy the presentation to GitHub Pages.
 
+Live site:
+
+[https://mosesdasilva.github.io/churchtech-academy-presentation/](https://mosesdasilva.github.io/churchtech-academy-presentation/)
+
 To enable it in GitHub:
 
 1. Open the repository `Settings` tab.
@@ -47,6 +51,8 @@ To enable it in GitHub:
 4. Push or merge the workflow to `main`.
 
 After that, every push to `main` will publish the static presentation site automatically.
+
+Note: after the first deploy, GitHub Pages can take a short time to propagate before the live URL starts working.
 
 ## Git Workflow
 
