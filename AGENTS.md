@@ -66,6 +66,8 @@ When working on this repo:
 
 Development process expectations:
 
+- At the beginning of each work session, sync the repo with the latest changes from GitHub before making edits.
+- Keep [AGENTS.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/AGENTS.md), [PROJECT_NOTES.md](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/PROJECT_NOTES.md), and the source proposal document aligned as the project evolves so workflow instructions, content decisions, and presentation source stay consistent.
 - Work in small, reviewable commits throughout development instead of saving everything for one large commit.
 - Prefer TDD where practical: make the expected behavior clear first, implement the change, then verify it.
 - Follow XP-style development habits: small increments, fast feedback, continuous refactoring only when needed, and keeping the system working at each step.

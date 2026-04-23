@@ -142,6 +142,8 @@ On any machine:
 - Desktop presentation view now targets no-scroll slides, with Vision and Goals tightened first; full no-scroll behavior should be treated as a baseline-size target rather than a universal guarantee across every screen and zoom level
 - The Programs slide now leads directly with the core-area cards, and the Vision and Goals slides are explicitly centered again within the no-scroll desktop presentation baseline
 - Future layout edits should preserve symmetry and alignment discipline across cards, panels, diagrams, and percentage-based positioning so slides feel balanced instead of loosely placed
+- The source proposal document now includes completed `Method and Material` and `Organization and Administration` sections from the updated ministry proposal content, replacing the older placeholder assignment notes
+- The source proposal document now explicitly states the Step 7 reporting flow: `Founding Director` over `Operations Administrator`, with `Production Team`, `Church Partnerships and Marketing`, and `Volunteer / Support Roles` coordinated under the `Operations Administrator` at the same level
 
 ## If A New Codex Session Picks This Up
 

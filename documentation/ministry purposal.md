@@ -30,14 +30,14 @@ What then shall we say, brothers and sisters? When you come together, each of yo
 
 The church grows when leaders equip people, not when a few experts do everything. Our training exists to form capable volunteers and leaders who serve with confidence.
 
-**Ephesians 4:11â€“13**  
+**Ephesians 4:11-13**  
 So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, 12 to equip his people for works of service, so that the body of Christ may be built up 13 until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.
 
 ### **Excellence With Humility**
 
 We pursue excellence as worship unto God, while keeping servant leadership and spiritual health central so skill never replaces character.
 
-**Philippians 2:3â€“4**  
+**Philippians 2:3-4**  
 2 then make my joy complete by being like-minded, having the same love, being one in spirit and of one mind. 3 Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, 4 not looking to your own interests but each of you to the interests of the others.
 
 ---
@@ -120,31 +120,31 @@ To empower churches worldwide with accessible, free, and spiritually aligned pro
 
 ## Goals and Objectives
 
-### Step 3 - Goals
+### **Goals**
 
-#### Goal 1 - Accessibility
+#### **Goal 1 - Accessibility**
 
 Remove barriers by providing free, on-demand, spiritually aligned production training that churches of any size can access and apply immediately.
 
-#### Goal 2 - Excellence
+#### **Goal 2 - Excellence**
 
 Cultivate excellence in church production and worship by developing training that strengthens clarity, reliability, and service readiness in real ministry contexts.
 
-#### Goal 3 - Empowerment
+#### **Goal 3 - Empowerment**
 
 Equip volunteers and leaders with clear, practical training pathways that build confidence, strengthen consistency, and reduce dependency on a few key individuals.
 
-#### Goal 4 - Kingdom Impact
+#### **Goal 4 - Kingdom Impact**
 
 Advance Gospel communication by helping churches use media and technology effectively in worship services, livestreams, and digital outreach.
 
-#### Goal 5 - Prayer
+#### **Goal 5 - Prayer**
 
 Establish a culture of prayer and dependence on the Holy Spirit that guides the ministry's direction, protects the heart behind excellence, and sustains spiritual alignment in everything we produce and teach.
 
-### Step 4 - Objectives
+### **Objectives**
 
-#### Goal 1 - Accessibility Objectives
+#### **Goal 1 - Accessibility Objectives**
 
 1. **Publish a volunteer onboarding pathway**  
    Create a "Volunteer Onboarding Essentials" pathway with short, practical lessons that a new volunteer can follow without outside help.
@@ -158,7 +158,7 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 4. **Keep access free through sending partners**  
    Build support from ministry-aligned churches or networks to cover platform and hosting costs so training stays free and sustainable.
 
-#### Goal 2 - Excellence Objectives
+#### **Goal 2 - Excellence Objectives**
 
 1. **Develop platform structure**  
    Create a clear structure in the platform where all segments are separated by topics such as mixing, FOH, and worship leading, with progressive levels.
@@ -172,7 +172,7 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 4. **Build a culture of ongoing skill growth**  
    Encourage continual development by providing assessments, progress tracking, and leadership development tools.
 
-#### Goal 3 - Empowerment Objectives
+#### **Goal 3 - Empowerment Objectives**
 
 1. **Develop role-based training pathways**  
    Create structured, role-specific pathways with beginner, intermediate, and advanced levels so volunteers can grow step by step.
@@ -189,7 +189,7 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 5. **Multiply leaders**  
    Equip team leaders to mentor and reproduce new volunteers, building a sustainable leadership pipeline within church production teams.
 
-#### Goal 4 - Kingdom Impact Objectives
+#### **Goal 4 - Kingdom Impact Objectives**
 
 1. **Equip church volunteers**  
    Provide practical training in audio, video, lighting, and broadcast production so volunteers can serve their churches with greater confidence and consistency.
@@ -203,7 +203,7 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 4. **Expand digital outreach**  
    Equip churches to use media and technology effectively to reach people beyond the church building through online services and digital platforms.
 
-#### Goal 5 - Prayer Objectives
+#### **Goal 5 - Prayer Objectives**
 
 1. **Create a prayer culture among coworkers**  
    Build a ministry environment where prayer is normal, intentional, and foundational to daily work.
@@ -219,21 +219,21 @@ Establish a culture of prayer and dependence on the Holy Spirit that guides the 
 
 ---
 
-## Step 5 - Programs and Curricula
+## Programs and Curricula
 
 ChurchTech Academy will use an original curriculum built by ministry practitioners with real church production experience. The curriculum will stay practical, ministry-specific, and aligned with the mission, vision, goals, and biblical principles of the ministry. Outside resources may be recommended only as hand-picked optional supplements, not as the main curriculum.
 
 The teaching model will focus on practical application rather than theory alone. Training will be delivered through a video-based course system built around real church service situations.
 
-### Core Program Areas
+### **Core Program Areas**
 
-- Audio
-- Video and broadcast
-- Lighting
-- Worship leading and worship ministry
+- Audio  
+- Video and broadcast  
+- Lighting  
+- Worship leading and worship ministry  
 - Leadership development
 
-### Training Levels
+### **Training Levels**
 
 1. **Beginner**  
    First-time volunteers and entry-level service roles.
@@ -247,32 +247,55 @@ The teaching model will focus on practical application rather than theory alone.
 4. **Leadership**  
    Department leaders who train teams and oversee ministry areas.
 
-### Supporting Programs
+### **Supporting Programs**
 
-- Volunteer Onboarding Program
-- Role-Based Ministry Pathways
+- Volunteer Onboarding Program  
+- Role-Based Ministry Pathways  
 - Leadership Development Program
 
 ---
 
-## To Do List
+Method and Material
 
-### Step 6 - Method and Material
+ChurchTech Academy will use multiple teaching methods in order to serve different learning styles and make the training practical for real ministry teams.
 
-**Assigned to:** Sidney  
-Write the method and material section by listing at least three teaching methods that will be used to train churches effectively, with a short explanation for each one. Also list the main materials, facilities, and equipment needed to deliver the training, such as production gear, teaching tools, course handouts, and recording or presentation spaces.
+### **Teaching Methods**
 
-### Step 7 - Organization and Administration
+- **Lecture and Demonstration:** instructors will explain key production concepts while visually showing equipment, software, or workflows in action. This method is useful for core technical instruction.  
+- **Discussion and Q\&A:** lessons and live sessions will include question-driven interaction so participants can process ideas, solve ministry-specific problems, and apply principles in context.  
+- **Video-Based Instruction:** short, well-structured visual lessons will help learners review concepts repeatedly at their own pace.
 
-**Assigned to:** Jennifer  
-Write the organization and administration section by describing the ministry structure, who reports to whom, and the key roles needed to run ChurchTech Academy. Include a clear outline of positions and a short job description for each one so the future organizational chart can be built from this section.
+### **Materials, Facilities, and Equipment**
 
-### Step 8 - Evaluation
+To produce and deliver the training effectively, ChurchTech Academy will require the following:
 
-**Assigned to:** Guilherme  
-Write the evaluation section by answering when the ministry will first be evaluated, how often evaluation will happen, what tools will be used, who will be involved, who will receive the results, and what questions will be asked to measure effectiveness. Keep the focus on how ChurchTech Academy will know whether the ministry is working and staying aligned with its goals.
+- **Production equipment:** cameras, tripods, switcher access, microphones, audio interface or console access, lighting examples, and related church production gear.  
+- **Teaching equipment:** laptop, presentation monitor, projector or TV screen, internet access, microphones, and presentation slides.  
+- **Course materials:** lesson outlines, printable handouts, note sheets, checklists, training pathways, and certificates of completion.  
+- **Facilities:** recording space, editing workspace, and access to real church production environments for demonstrations and case studies.  
+- **Platform materials:** hosting infrastructure, course pages, user logins, multilingual subtitle or dubbing assets, and communication systems for subscribers.
 
-### Step 9 - Revised Needs
+---
 
-**Assigned to:** Davi  
-Write the revised needs section by explaining what may need to be updated after evaluation and give at least one hypothetical example of a change that could be made. Focus on possible revisions to training structure, delivery, staffing, systems, or multilingual rollout based on what the evaluation reveals.
+## Organization and Administration
+
+ChurchTech Academy will require a clear ministry and business structure to support content creation, platform management, instructor coordination, and church engagement. The organizational flow and key position descriptions are outlined below:
+
+The Founding Director provides overall leadership and oversight for the ministry. The Operations Administrator reports to the Founding Director and manages the day-to-day coordination of ministry operations. The Production Team, Church Partnerships and Marketing, and Volunteer / Support Roles operate under the coordination of the Operations Administrator and function at the same organizational level.
+
+- **Founding Director (Executive Leadership):** protects the mission, vision, and biblical alignment of the ministry while guiding major business and ministry decisions.  
+- **Operations Administrator:** oversees scheduling, platform management, subscription systems, communication workflows, and administrative coordination.  
+- **Production Team:** handle filming, editing, graphics, audio quality, lesson delivery standards, and technical execution.  
+- **Church Partnerships and Marketing:** build relationships with churches, recruit pilot users, coordinate promotions, and gather market feedback.  
+- **Volunteer / Support Roles:** assist with logistics, translation support, moderation, customer communication, and event support when needed.
+
+```text
+Founding Director
+
+│
+├── Operations Administrator
+│
+├── Production Team
+├── Church Partnerships and Marketing
+└── Volunteer/Support Role
+```
