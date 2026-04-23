@@ -153,6 +153,7 @@ On any machine:
 - The source proposal document now explicitly states the Step 7 reporting flow: `Founding Director` over `Operations Administrator`, with `Production Team`, `Church Partnerships and Marketing`, and `Volunteer / Support Roles` coordinated under the `Operations Administrator` at the same level
 - The presentation now includes dedicated Step 6 and Step 7 slides so `Method and Material` and `Organization and Administration` are represented in the live deck instead of only in the source proposal
 - The Step 7 slide now uses the manually added [chart_step_7.png](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/chart_step_7.png) asset, and the source proposal should reference that same image to keep the documentation and presentation aligned
+- The source proposal document now includes a completed Step 8 `Evaluation` section that answers the transcript prompts and the repo step checklist for timing, cadence, tools, participants, reporting, and evaluative questions
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 - The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step
 

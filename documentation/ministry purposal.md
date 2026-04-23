@@ -291,3 +291,47 @@ The Founding Director provides overall leadership and oversight for the ministry
 
 ![Organizational flow chart for step seven](./chart_step_7.png)
 
+---
+
+## Evaluation
+
+ChurchTech Academy will be evaluated on a regular basis to determine whether the platform is achieving its spiritual, educational, and organizational goals.
+
+### **When Evaluation Will Begin**
+
+The first evaluation will begin immediately after the pilot phase and first course releases, once enough participants have completed lessons to provide useful feedback.
+
+### **How Often Evaluation Will Happen**
+
+- **Weekly:** informal internal review of production quality, content progress, and workflow bottlenecks.  
+- **Monthly:** review of subscriber engagement, lesson completion, church feedback, and platform performance.  
+- **Quarterly:** formal evaluation of course effectiveness, strategic goals, and ministry impact.  
+- **Annually:** high-level review of mission alignment, financial sustainability, curriculum growth, and expansion priorities.
+
+### **Evaluation Tools**
+
+- participant feedback forms  
+- course completion data  
+- engagement metrics such as watch time and retention  
+- church partner interviews  
+- team review meetings  
+- financial and subscription reports
+
+### **Who Will Be Involved**
+
+Evaluation will involve executive leadership, operations leadership, curriculum and content leaders, selected instructors, and participating churches or users who provide direct feedback.
+
+### **Who Will Receive the Results**
+
+The results will be reviewed internally by leadership and shared in summary form with key team members, instructors, and strategic ministry partners as appropriate.
+
+### **Evaluation Questions**
+
+Key evaluation questions will include:
+
+- Are the lessons biblically aligned and spiritually healthy?  
+- Are the courses practical and clear for volunteers and church staff?  
+- Are subscribers completing the training and applying it in ministry settings?  
+- Which programs create the greatest impact for churches of different sizes?  
+- What technical, instructional, or organizational improvements are needed next?
+
