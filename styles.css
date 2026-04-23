@@ -204,6 +204,33 @@ button {
   align-content: center;
 }
 
+.slide-guardrail .slide-shell {
+  gap: 0.85rem;
+}
+
+.slide-guardrail .section-heading {
+  max-width: 46rem;
+}
+
+.slide-guardrail .section-heading h2 {
+  font-size: clamp(1.55rem, 2.45vw, 2.45rem);
+  line-height: 1.06;
+}
+
+.slide-guardrail .panel,
+.slide-guardrail .info-card,
+.slide-guardrail .principle-card {
+  padding: 1.25rem;
+}
+
+.slide-guardrail .panel p,
+.slide-guardrail .info-card p,
+.slide-guardrail .principle-card p,
+.slide-guardrail .detail-list {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 .hero,
 .two-column {
   grid-template-columns: 1.6fr 1fr;
@@ -609,6 +636,13 @@ button {
   font-size: 1.2rem;
 }
 
+.slide-guardrail .support-heading,
+.slide-guardrail .position-item h3,
+.slide-guardrail .info-card h3,
+.slide-guardrail .principle-card h3 {
+  font-size: 1rem;
+}
+
 .support-list {
   margin-top: 0;
 }
@@ -656,6 +690,15 @@ button {
   margin-top: 0.8rem;
 }
 
+.slide-guardrail .resource-list {
+  margin-top: 0.75rem;
+}
+
+.slide-guardrail .resource-list li + li,
+.slide-guardrail .detail-list li + li {
+  margin-top: 0.55rem;
+}
+
 .org-chart-panel {
   display: flex;
   flex-direction: column;
@@ -676,6 +719,11 @@ button {
     rgba(255, 255, 255, 0.03);
 }
 
+.slide-guardrail .org-chart-frame {
+  min-height: 20rem;
+  padding: 0.85rem;
+}
+
 .org-chart-image {
   display: block;
   width: 100%;
@@ -693,6 +741,10 @@ button {
   position: relative;
   width: 100%;
   min-height: 22rem;
+}
+
+.slide-guardrail .org-visual {
+  min-height: 20rem;
 }
 
 .org-grid {
@@ -853,6 +905,16 @@ button {
   margin: 0;
 }
 
+.slide-guardrail .methods-materials-layout,
+.slide-guardrail .organization-layout,
+.slide-guardrail .evaluation-layout,
+.slide-guardrail .method-stack,
+.slide-guardrail .position-stack,
+.slide-guardrail .evaluation-stack,
+.slide-guardrail .evaluation-timeline {
+  gap: 0.75rem;
+}
+
 .evaluation-timeline-panel,
 .evaluation-details-panel {
   display: flex;
@@ -880,6 +942,13 @@ button {
 
 .evaluation-list li + li {
   margin-top: 0.55rem;
+}
+
+.slide-guardrail .evaluation-item,
+.slide-guardrail .evaluation-card,
+.slide-guardrail .method-card,
+.slide-guardrail .position-item {
+  padding: 0.95rem;
 }
 
 .slide[data-title="Goals"] .section-heading {
@@ -1224,6 +1293,10 @@ button {
     padding: 1.25rem;
   }
 
+  .slide-guardrail .section-heading h2 {
+    font-size: clamp(1.45rem, 5vw, 2rem);
+  }
+
   .slide[data-title="Programs"] .program-card {
     padding: 1rem;
   }
@@ -1334,6 +1407,24 @@ button {
     font-size: clamp(1.55rem, 2.2vw, 2.2rem);
   }
 
+  .slide-guardrail .section-heading h2 {
+    font-size: clamp(1.38rem, 2vw, 1.9rem);
+  }
+
+  .slide-guardrail .panel,
+  .slide-guardrail .info-card,
+  .slide-guardrail .principle-card {
+    padding: 1.05rem;
+  }
+
+  .slide-guardrail .panel p,
+  .slide-guardrail .info-card p,
+  .slide-guardrail .principle-card p,
+  .slide-guardrail .detail-list {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
   .slide[data-title="Programs"] .program-grid {
     gap: 0.65rem;
   }
@@ -1371,8 +1462,20 @@ button {
     font-size: 0.95rem;
   }
 
+  .slide-guardrail .support-heading,
+  .slide-guardrail .position-item h3,
+  .slide-guardrail .info-card h3,
+  .slide-guardrail .principle-card h3 {
+    font-size: 0.9rem;
+  }
+
   .method-card {
     padding: 1rem;
+  }
+
+  .slide-guardrail .org-chart-frame,
+  .slide-guardrail .org-visual {
+    min-height: 17rem;
   }
 
   .org-chart-frame {
