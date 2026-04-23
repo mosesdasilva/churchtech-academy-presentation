@@ -292,7 +292,11 @@ button {
 .goals-grid,
 .objectives-grid,
 .program-grid,
-.curriculum-layout {
+.curriculum-layout,
+.methods-materials-layout,
+.organization-layout,
+.method-stack,
+.position-stack {
   display: grid;
   gap: 1rem;
 }
@@ -500,6 +504,12 @@ button {
   align-items: start;
 }
 
+.methods-materials-layout,
+.organization-layout {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
 .curriculum-panel,
 .levels-panel,
 .support-panel {
@@ -590,6 +600,11 @@ button {
   font-size: 1.2rem;
 }
 
+.support-heading {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
 .support-list {
   margin-top: 0;
 }
@@ -609,6 +624,224 @@ button {
 .program-card {
   display: flex;
   flex-direction: column;
+}
+
+.method-stack,
+.position-stack {
+  gap: 0.85rem;
+}
+
+.method-card {
+  padding: 1.15rem 1.2rem;
+}
+
+.method-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.resource-list {
+  margin-top: 1rem;
+}
+
+.resource-list li + li {
+  margin-top: 0.8rem;
+}
+
+.org-chart-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.org-chart-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22rem;
+  margin-top: 0.25rem;
+  padding: 1rem;
+  border-radius: 24px;
+  border: 1px solid rgba(123, 224, 255, 0.16);
+  background:
+    radial-gradient(circle at 18% 22%, rgba(74, 179, 255, 0.14), transparent 24%),
+    radial-gradient(circle at 80% 76%, rgba(123, 224, 255, 0.12), transparent 22%),
+    rgba(255, 255, 255, 0.03);
+}
+
+.org-chart-image {
+  display: block;
+  width: 100%;
+  max-width: 42rem;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
+}
+
+.org-chart-frame-prototype {
+  overflow: hidden;
+}
+
+.org-visual {
+  position: relative;
+  width: 100%;
+  min-height: 22rem;
+}
+
+.org-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(123, 224, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(123, 224, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  opacity: 0.45;
+}
+
+.org-link,
+.org-node {
+  position: absolute;
+}
+
+.org-link {
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(74, 179, 255, 0.12), rgba(123, 224, 255, 0.95), rgba(74, 179, 255, 0.12));
+  box-shadow: 0 0 18px rgba(74, 179, 255, 0.18);
+}
+
+.org-link-vertical-top,
+.org-link-vertical-mid,
+.org-link-left-down,
+.org-link-center-down,
+.org-link-right-down {
+  width: 2px;
+}
+
+.org-link-horizontal-mid,
+.org-link-horizontal-bottom {
+  height: 2px;
+}
+
+.org-link-vertical-top {
+  top: 22%;
+  left: 50%;
+  height: 13%;
+  transform: translateX(-50%);
+}
+
+.org-link-horizontal-mid {
+  top: 35%;
+  left: 36%;
+  width: 14%;
+}
+
+.org-link-vertical-mid {
+  top: 35%;
+  left: 50%;
+  width: 2px;
+  height: 22%;
+  transform: translateX(-50%);
+}
+
+.org-link-horizontal-bottom {
+  top: 57%;
+  left: 12%;
+  width: 76%;
+}
+
+.org-link-left-down {
+  top: 57%;
+  left: 12%;
+  height: 9%;
+}
+
+.org-link-center-down {
+  top: 57%;
+  left: 50%;
+  height: 9%;
+  transform: translateX(-50%);
+}
+
+.org-link-right-down {
+  top: 57%;
+  left: 88%;
+  height: 9%;
+}
+
+.org-node {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 22px;
+  border: 1px solid rgba(123, 224, 255, 0.28);
+  background:
+    radial-gradient(circle at 30% 25%, rgba(123, 224, 255, 0.22), rgba(4, 17, 31, 0.94) 72%),
+    rgba(4, 17, 31, 0.82);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+    0 0 28px rgba(74, 179, 255, 0.16);
+  backdrop-filter: blur(10px);
+}
+
+.org-node span {
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.org-node-director {
+  top: 4%;
+  left: 33%;
+  width: 34%;
+  min-height: 18%;
+}
+
+.org-node-admin {
+  top: 26%;
+  left: 6%;
+  width: 34%;
+  min-height: 18%;
+}
+
+.org-node-production {
+  top: 66%;
+  left: 0;
+  width: 26%;
+  min-height: 18%;
+}
+
+.org-node-partnerships {
+  top: 66%;
+  left: 32%;
+  width: 36%;
+  min-height: 18%;
+}
+
+.org-node-support {
+  top: 66%;
+  right: 0;
+  width: 26%;
+  min-height: 18%;
+}
+
+.position-item {
+  padding: 1rem 1.1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(123, 224, 255, 0.18);
+  background:
+    linear-gradient(180deg, rgba(74, 179, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    rgba(255, 255, 255, 0.02);
+}
+
+.position-item h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.position-item p {
+  margin: 0;
 }
 
 .slide[data-title="Goals"] .section-heading {
@@ -928,7 +1161,9 @@ button {
   .metrics,
   .hero-stats,
   .closing-points,
-  .curriculum-layout {
+  .curriculum-layout,
+  .methods-materials-layout,
+  .organization-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1012,7 +1247,9 @@ button {
   }
 
   .program-grid,
-  .curriculum-layout {
+  .curriculum-layout,
+  .methods-materials-layout,
+  .organization-layout {
     gap: 0.75rem;
   }
 
@@ -1087,5 +1324,31 @@ button {
   .level-item strong,
   .support-panel h3 {
     font-size: 0.95rem;
+  }
+
+  .support-heading,
+  .position-item h3 {
+    font-size: 0.95rem;
+  }
+
+  .method-card {
+    padding: 1rem;
+  }
+
+  .org-chart-frame {
+    min-height: 18rem;
+    padding: 0.8rem;
+  }
+
+  .org-visual {
+    min-height: 18rem;
+  }
+
+  .org-node span {
+    font-size: 0.78rem;
+  }
+
+  .position-item {
+    padding: 0.9rem 0.95rem;
   }
 }

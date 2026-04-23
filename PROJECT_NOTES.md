@@ -96,7 +96,13 @@ Avoid:
 11. Training Pathways
    Training levels and supporting programs
 
-12. Closing Summary
+12. Method And Material
+   Teaching methods, facilities, equipment, and supporting delivery resources
+
+13. Organization And Administration
+   Reporting structure, key roles, and the Step 7 organizational chart
+
+14. Closing Summary
    Final proposal summary and restated impact
 
 ## Content Source
@@ -144,6 +150,9 @@ On any machine:
 - Future layout edits should preserve symmetry and alignment discipline across cards, panels, diagrams, and percentage-based positioning so slides feel balanced instead of loosely placed
 - The source proposal document now includes completed `Method and Material` and `Organization and Administration` sections from the updated ministry proposal content, replacing the older placeholder assignment notes
 - The source proposal document now explicitly states the Step 7 reporting flow: `Founding Director` over `Operations Administrator`, with `Production Team`, `Church Partnerships and Marketing`, and `Volunteer / Support Roles` coordinated under the `Operations Administrator` at the same level
+- The presentation now includes dedicated Step 6 and Step 7 slides so `Method and Material` and `Organization and Administration` are represented in the live deck instead of only in the source proposal
+- The Step 7 slide now uses the manually added [chart_step_7.png](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/chart_step_7.png) asset, and the source proposal should reference that same image to keep the documentation and presentation aligned
+- Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 
 ## If A New Codex Session Picks This Up
 

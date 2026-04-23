@@ -249,9 +249,9 @@ The teaching model will focus on practical application rather than theory alone.
 
 ### **Supporting Programs**
 
-- Volunteer Onboarding Program  
-- Role-Based Ministry Pathways  
-- Leadership Development Program
+- Live discussion and Q\&A livestream sessions  
+- Interactive follow-up for ministry-specific questions  
+- Real-time engagement around practical church production needs
 
 ---
 
@@ -262,8 +262,8 @@ ChurchTech Academy will use multiple teaching methods in order to serve differen
 ### **Teaching Methods**
 
 - **Lecture and Demonstration:** instructors will explain key production concepts while visually showing equipment, software, or workflows in action. This method is useful for core technical instruction.  
-- **Discussion and Q\&A:** lessons and live sessions will include question-driven interaction so participants can process ideas, solve ministry-specific problems, and apply principles in context.  
-- **Video-Based Instruction:** short, well-structured visual lessons will help learners review concepts repeatedly at their own pace.
+- **Video-Based Instruction:** short, well-structured visual lessons will help learners review concepts repeatedly at their own pace.  
+- **Discussion and Q\&A:** lessons and live sessions will include question-driven interaction so participants can process ideas, solve ministry-specific problems, and apply principles in context.
 
 ### **Materials, Facilities, and Equipment**
 
@@ -289,13 +289,5 @@ The Founding Director provides overall leadership and oversight for the ministry
 - **Church Partnerships and Marketing:** build relationships with churches, recruit pilot users, coordinate promotions, and gather market feedback.  
 - **Volunteer / Support Roles:** assist with logistics, translation support, moderation, customer communication, and event support when needed.
 
-```text
-Founding Director
+![Organizational flow chart for step seven](./chart_step_7.png)
 
-│
-├── Operations Administrator
-│
-├── Production Team
-├── Church Partnerships and Marketing
-└── Volunteer/Support Role
-```
