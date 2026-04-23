@@ -35,6 +35,19 @@ Presentation controls:
 - `Page Up` / `Page Down`
 - `F` for fullscreen
 
+## GitHub Pages Hosting
+
+This repo now includes a GitHub Actions workflow at [.github/workflows/deploy-pages.yml](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/.github/workflows/deploy-pages.yml) to deploy the presentation to GitHub Pages.
+
+To enable it in GitHub:
+
+1. Open the repository `Settings` tab.
+2. Go to `Pages`.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. Push or merge the workflow to `main`.
+
+After that, every push to `main` will publish the static presentation site automatically.
+
 ## Git Workflow
 
 Recommended workflow when moving between computers:

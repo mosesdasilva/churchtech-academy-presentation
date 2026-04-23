@@ -117,6 +117,7 @@ If new slides or wording are added, they should remain aligned with that documen
 - Main entry point: [index.html](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/index.html)
 - Styling: [styles.css](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/styles.css)
 - Interaction: [script.js](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/script.js)
+- GitHub Pages deployment is handled by [.github/workflows/deploy-pages.yml](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/.github/workflows/deploy-pages.yml), which publishes the repo as a static site on pushes to `main`
 - Ignored generated outputs: `submission-examples/`
 
 ## Recommended Cross-Computer Workflow
@@ -153,6 +154,7 @@ On any machine:
 - The presentation now includes dedicated Step 6 and Step 7 slides so `Method and Material` and `Organization and Administration` are represented in the live deck instead of only in the source proposal
 - The Step 7 slide now uses the manually added [chart_step_7.png](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/chart_step_7.png) asset, and the source proposal should reference that same image to keep the documentation and presentation aligned
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
+- The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step
 
 ## If A New Codex Session Picks This Up
 
