@@ -102,7 +102,10 @@ Avoid:
 13. Organization And Administration
    Reporting structure, key roles, and the Step 7 organizational chart
 
-14. Closing Summary
+14. Evaluation
+   Review cadence, evaluation tools, participants, and core evaluative questions from Step 8
+
+15. Closing Summary
    Final proposal summary and restated impact
 
 ## Content Source
@@ -154,6 +157,7 @@ On any machine:
 - The presentation now includes dedicated Step 6 and Step 7 slides so `Method and Material` and `Organization and Administration` are represented in the live deck instead of only in the source proposal
 - The Step 7 slide now uses the manually added [chart_step_7.png](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/documentation/chart_step_7.png) asset, and the source proposal should reference that same image to keep the documentation and presentation aligned
 - The source proposal document now includes a completed Step 8 `Evaluation` section that answers the transcript prompts and the repo step checklist for timing, cadence, tools, participants, reporting, and evaluative questions
+- The presentation now includes a dedicated Step 8 `Evaluation` slide that uses the same panel-and-card visual language as Steps 6 and 7 so the review process is represented in the live deck before the closing summary
 - The ministry proposal wording should stay aligned with a free ministry model, so terms like `subscribers`, `subscription systems`, and `customer communication` should be avoided in favor of ministry-oriented participant and support language
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 - The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step

@@ -295,8 +295,11 @@ button {
 .curriculum-layout,
 .methods-materials-layout,
 .organization-layout,
+.evaluation-layout,
 .method-stack,
-.position-stack {
+.position-stack,
+.evaluation-stack,
+.evaluation-timeline {
   display: grid;
   gap: 1rem;
 }
@@ -505,7 +508,8 @@ button {
 }
 
 .methods-materials-layout,
-.organization-layout {
+.organization-layout,
+.evaluation-layout {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
 }
@@ -628,6 +632,11 @@ button {
 
 .method-stack,
 .position-stack {
+  gap: 0.85rem;
+}
+
+.evaluation-timeline,
+.evaluation-stack {
   gap: 0.85rem;
 }
 
@@ -842,6 +851,35 @@ button {
 
 .position-item p {
   margin: 0;
+}
+
+.evaluation-timeline-panel,
+.evaluation-details-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation-item,
+.evaluation-card {
+  padding: 1.05rem 1.1rem;
+  border-radius: 22px;
+  border: 1px solid rgba(123, 224, 255, 0.18);
+  background:
+    linear-gradient(180deg, rgba(74, 179, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    rgba(255, 255, 255, 0.02);
+}
+
+.evaluation-item p,
+.evaluation-card p {
+  margin: 0;
+}
+
+.evaluation-list {
+  margin: 0.6rem 0 0;
+}
+
+.evaluation-list li + li {
+  margin-top: 0.55rem;
 }
 
 .slide[data-title="Goals"] .section-heading {
@@ -1163,7 +1201,8 @@ button {
   .closing-points,
   .curriculum-layout,
   .methods-materials-layout,
-  .organization-layout {
+  .organization-layout,
+  .evaluation-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1249,7 +1288,8 @@ button {
   .program-grid,
   .curriculum-layout,
   .methods-materials-layout,
-  .organization-layout {
+  .organization-layout,
+  .evaluation-layout {
     gap: 0.75rem;
   }
 
@@ -1350,5 +1390,10 @@ button {
 
   .position-item {
     padding: 0.9rem 0.95rem;
+  }
+
+  .evaluation-item,
+  .evaluation-card {
+    padding: 0.95rem;
   }
 }
