@@ -166,6 +166,7 @@ On any machine:
 - The source proposal document now includes a completed Step 9 `Revised Needs` section with hypothetical revision examples tied to evaluation outcomes, platform structure, and multilingual expansion
 - The presentation now includes a dedicated Step 8 `Evaluation` slide that uses the same panel-and-card visual language as Steps 6 and 7 so the review process is represented in the live deck before the closing summary
 - The presentation now includes a dedicated Step 9 `Revised Needs` slide between Evaluation and Closing, using the same guardrail layout while shortening the examples so they remain readable in live presentation view
+- The Option 2 desktop-plus-mobile-flow prototype has been adopted as the primary root presentation implementation, including mobile section chips, active-section tracking, and mode labeling while preserving desktop slide controls
 - Step 6, Step 7, and Step 8 now use a reusable slide-size guardrail based on the Step 7 `Scope and Reach` footprint: tighter section headings, smaller title scale, and reduced internal spacing to protect no-scroll presentation fit
 - The ministry proposal wording should stay aligned with a free ministry model, so terms like `subscribers`, `subscription systems`, and `customer communication` should be avoided in favor of ministry-oriented participant and support language
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide

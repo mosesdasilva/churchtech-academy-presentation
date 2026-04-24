@@ -2,11 +2,14 @@ const slides = Array.from(document.querySelectorAll(".slide"));
 const counter = document.getElementById("slide-counter");
 const progressBar = document.getElementById("progress-bar");
 const dotNav = document.getElementById("dot-nav");
+const mobileOutline = document.getElementById("mobile-outline");
 const prevButton = document.getElementById("prev-button");
 const nextButton = document.getElementById("next-button");
 const fullscreenButton = document.getElementById("fullscreen-button");
+const layoutMode = document.getElementById("layout-mode");
 
 let currentSlide = 0;
+let mobileScrollTicking = false;
 
 function padSlideNumber(value) {
   return String(value + 1).padStart(2, "0");
@@ -26,6 +29,73 @@ function buildDots() {
   });
 }
 
+function slugifyTitle(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function buildMobileOutline() {
+  slides.forEach((slide, index) => {
+    const title = slide.dataset.title || `Slide ${index + 1}`;
+    const sectionId = `section-${index + 1}-${slugifyTitle(title)}`;
+    slide.id = sectionId;
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = `${index + 1}. ${title}`;
+    button.setAttribute("aria-label", `Jump to ${title}`);
+    button.addEventListener("click", () => {
+      slide.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    mobileOutline.appendChild(button);
+  });
+}
+
+function setDesktopCounter(index) {
+  counter.textContent = `${padSlideNumber(index)} / ${padSlideNumber(slides.length - 1)}`;
+}
+
+function highlightMobileOutline(index) {
+  Array.from(mobileOutline.children).forEach((item, itemIndex) => {
+    item.classList.toggle("active", itemIndex === index);
+  });
+}
+
+function getMobileCurrentIndex() {
+  let bestIndex = 0;
+  let closest = Number.POSITIVE_INFINITY;
+
+  slides.forEach((slide, index) => {
+    const rect = slide.getBoundingClientRect();
+    const distanceFromTop = Math.abs(rect.top - 132);
+    if (distanceFromTop < closest) {
+      closest = distanceFromTop;
+      bestIndex = index;
+    }
+  });
+
+  return bestIndex;
+}
+
+function updateMobileProgress() {
+  const activeIndex = getMobileCurrentIndex();
+  currentSlide = activeIndex;
+  setDesktopCounter(activeIndex);
+  highlightMobileOutline(activeIndex);
+}
+
+function setLayoutMode() {
+  const mobile = isMobileLayout();
+  document.body.classList.toggle("mobile-flow", mobile);
+  layoutMode.textContent = mobile ? "Mobile Flow" : "Desktop Slides";
+
+  if (mobile) {
+    updateMobileProgress();
+    return;
+  }
+
+  setSlide(currentSlide);
+}
+
 function setSlide(index) {
   currentSlide = (index + slides.length) % slides.length;
 
@@ -37,8 +107,9 @@ function setSlide(index) {
     dot.classList.toggle("active", dotIndex === currentSlide);
   });
 
-  counter.textContent = `${padSlideNumber(currentSlide)} / ${padSlideNumber(slides.length - 1)}`;
+  setDesktopCounter(currentSlide);
   progressBar.style.width = `${((currentSlide + 1) / slides.length) * 100}%`;
+  highlightMobileOutline(currentSlide);
 }
 
 function nextSlide() {
@@ -87,5 +158,21 @@ document.addEventListener("fullscreenchange", () => {
   fullscreenButton.textContent = document.fullscreenElement ? "Exit Fullscreen" : "Fullscreen";
 });
 
+window.addEventListener("resize", setLayoutMode);
+
+window.addEventListener("scroll", () => {
+  if (!isMobileLayout() || mobileScrollTicking) {
+    return;
+  }
+
+  mobileScrollTicking = true;
+  requestAnimationFrame(() => {
+    updateMobileProgress();
+    mobileScrollTicking = false;
+  });
+});
+
 buildDots();
+buildMobileOutline();
 setSlide(0);
+setLayoutMode();
