@@ -231,7 +231,7 @@ The teaching model will focus on practical application rather than theory alone.
 - Video and broadcast  
 - Lighting  
 - Worship leading and worship ministry  
-- Leadership development
+- Leadership and team management
 
 ### **Training Levels**
 
@@ -244,8 +244,8 @@ The teaching model will focus on practical application rather than theory alone.
 3. **Advanced**  
    Main-service volunteers carrying greater weekly responsibility.
 
-4. **Leadership**  
-   Department leaders who train teams and oversee ministry areas.
+4. **Team Leader**  
+   Department leaders who train teams, organize volunteers, and oversee ministry areas.
 
 ### **Supporting Programs**
 

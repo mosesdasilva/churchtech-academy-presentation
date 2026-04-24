@@ -94,7 +94,7 @@ Avoid:
    Condensed implementation objectives grouped under each ministry goal
 
 10. Programs And Curricula
-   Core program areas: audio, video and broadcast, lighting, worship ministry, leadership development
+   Core program areas: audio, video and broadcast, lighting, worship ministry, leadership and team management
 
 11. Training Pathways
    Training levels and supporting programs
@@ -171,6 +171,7 @@ On any machine:
 - The ministry proposal wording should stay aligned with a free ministry model, so terms like `subscribers`, `subscription systems`, and `customer communication` should be avoided in favor of ministry-oriented participant and support language
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 - The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step
+- The curriculum wording now treats the leadership core area as `Leadership And Team Management`, and the top training level is now `Team Leader` to emphasize ministry team oversight rather than a generic leadership tier
 
 ## If A New Codex Session Picks This Up
 
