@@ -86,7 +86,14 @@ function updateMobileProgress() {
 function setLayoutMode() {
   const mobile = isMobileLayout();
   document.body.classList.toggle("mobile-flow", mobile);
-  layoutMode.textContent = mobile ? "Mobile Flow" : "Desktop Slides";
+  layoutMode.classList.toggle("mode-mobile", mobile);
+  layoutMode.classList.toggle("mode-desktop", !mobile);
+  layoutMode.setAttribute("aria-label", mobile ? "Mobile flow mode" : "Desktop slides mode");
+
+  const srLabel = layoutMode.querySelector(".sr-only");
+  if (srLabel) {
+    srLabel.textContent = mobile ? "Mobile flow mode" : "Desktop slides mode";
+  }
 
   if (mobile) {
     updateMobileProgress();

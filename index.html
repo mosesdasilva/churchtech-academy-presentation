@@ -21,7 +21,21 @@
     </div>
     <div class="topbar-actions">
       <p id="slide-counter" class="counter">01 / 16</p>
-      <p id="layout-mode" class="layout-mode" aria-live="polite">Desktop Slides</p>
+      <p id="layout-mode" class="layout-mode mode-desktop" aria-live="polite" aria-label="Desktop slides mode">
+        <span class="layout-mode-icon" aria-hidden="true">
+          <svg class="layout-mode-svg layout-mode-svg-desktop" viewBox="0 0 24 24" focusable="false">
+            <rect x="3.5" y="4.5" width="17" height="11" rx="2"></rect>
+            <path d="M9 19.5h6"></path>
+            <path d="M12 15.5v4"></path>
+          </svg>
+          <svg class="layout-mode-svg layout-mode-svg-mobile" viewBox="0 0 24 24" focusable="false">
+            <rect x="7" y="2.5" width="10" height="19" rx="2.5"></rect>
+            <path d="M10.5 5.5h3"></path>
+            <circle cx="12" cy="18.25" r="0.8"></circle>
+          </svg>
+        </span>
+        <span class="sr-only">Desktop slides mode</span>
+      </p>
       <button id="fullscreen-button" class="ghost-button" type="button">Fullscreen</button>
     </div>
   </header>
