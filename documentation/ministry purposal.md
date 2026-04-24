@@ -335,3 +335,12 @@ Key evaluation questions will include:
 - Which programs create the greatest impact for churches of different sizes?  
 - What technical, instructional, or organizational improvements are needed next?
 
+## Revised Needs
+
+Evaluation should lead to revision. As ChurchTech Academy grows, leadership will need to update curriculum, systems, staffing, and delivery methods in response to participant feedback, ministry realities, and changing opportunities for impact.
+
+One hypothetical example is that, after several months of use, the team may discover that small churches engage strongly with beginner audio and livestream content but struggle to complete longer leadership modules. In response, ChurchTech Academy could revise the platform by breaking larger courses into shorter step-by-step tracks, adding church-team discussion guides, and creating a simplified onboarding pathway for volunteers who are new to production ministry.
+
+Another possible revision could involve multilingual expansion. If demand from Latin American churches grows faster than expected, the ministry may need to increase translation capacity, prioritize Portuguese and Spanish dubbing earlier, and recruit additional instructors who can serve those audiences more directly.
+
+Through this revision process, ChurchTech Academy will not only identify weaknesses, but also respond wisely and practically so the ministry can continue improving its effectiveness and serving churches with greater clarity, accessibility, and impact.
