@@ -19,3 +19,4 @@ Open `prototypes/option2/index.html` directly in a browser.
 
 - Root project files remain unchanged for this prototype path.
 - This is a UX spike to evaluate direction before merging any behavior into the main presentation.
+- Trigger note: this file can be updated to force a prototype deployment run on GitHub Actions.
