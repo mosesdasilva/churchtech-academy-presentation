@@ -172,6 +172,7 @@ On any machine:
 - Supporting programs should no longer use the old onboarding/pathways wording; the current direction is live discussion and Q&A livestream support aligned with the Step 6 teaching-method slide
 - The repo now includes a GitHub Actions workflow for GitHub Pages hosting so the presentation can be published directly from the `main` branch without adding a build step
 - The curriculum wording now treats the leadership core area as `Leadership And Team Management`, and the top training level is now `Team Leader` to emphasize ministry team oversight rather than a generic leadership tier
+- A new isolated prototype now lives at [prototypes/presenter-first-deck](C:/Users/mrd98/OneDrive/Documents/Slides/ChurchTech/prototypes/presenter-first-deck) to test a presenter-first approach where slides stay sparse and a companion document carries the fuller written proposal content
 
 ## If A New Codex Session Picks This Up
 

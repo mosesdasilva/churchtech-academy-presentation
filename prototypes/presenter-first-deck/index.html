@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChurchTech Academy Presenter-First Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="background-glow glow-left" aria-hidden="true"></div>
+  <div class="background-glow glow-right" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div>
+        <p class="eyebrow">Presenter-First Prototype</p>
+        <h1>ChurchTech Academy</h1>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <p id="slide-counter" class="counter">01 / 14</p>
+      <p id="layout-mode" class="layout-mode mode-desktop" aria-live="polite" aria-label="Desktop slides mode">
+        <span class="layout-mode-icon" aria-hidden="true">
+          <svg class="layout-mode-svg layout-mode-svg-desktop" viewBox="0 0 24 24" focusable="false">
+            <rect x="3.5" y="4.5" width="17" height="11" rx="2"></rect>
+            <path d="M9 19.5h6"></path>
+            <path d="M12 15.5v4"></path>
+          </svg>
+          <svg class="layout-mode-svg layout-mode-svg-mobile" viewBox="0 0 24 24" focusable="false">
+            <rect x="7" y="2.5" width="10" height="19" rx="2.5"></rect>
+            <path d="M10.5 5.5h3"></path>
+            <circle cx="12" cy="18.25" r="0.8"></circle>
+          </svg>
+        </span>
+        <span class="sr-only">Desktop slides mode</span>
+      </p>
+      <button id="fullscreen-button" class="ghost-button" type="button">Fullscreen</button>
+    </div>
+  </header>
+
+  <nav id="mobile-outline" class="mobile-outline" aria-label="Mobile section navigation"></nav>
+
+  <main id="presentation" class="presentation presenter-prototype">
+    <section class="slide active" data-title="Opening">
+      <div class="slide-shell hero presenter-hero">
+        <article class="panel hero-panel">
+          <p class="eyebrow">Ministry Proposal</p>
+          <h2>What if the slide deck carried the room, and the document carried the detail?</h2>
+          <p class="lead">
+            A lighter presentation prototype for ChurchTech Academy, designed for live speaking instead of dense reading.
+          </p>
+          <div class="hero-stats presenter-stat-row">
+            <article>
+              <strong>Talk-first</strong>
+              <span>Short prompts for live delivery</span>
+            </article>
+            <article>
+              <strong>Doc-backed</strong>
+              <span>Full writeup stays off-slide</span>
+            </article>
+            <article>
+              <strong>Same vision</strong>
+              <span>Less verbal, more signal</span>
+            </article>
+          </div>
+        </article>
+        <aside class="signal-card presenter-note-card">
+          <p class="signal-label">Companion Notes</p>
+          <p class="signal-number">Use the separate document for the full proposal, Scripture, objectives, and examples.</p>
+          <p class="signal-copy">Slides become visual anchors instead of the script itself.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Problem">
+      <div class="slide-shell">
+        <div class="section-heading">
+          <p class="eyebrow">The Need</p>
+          <h2>Church production teams are often serving without enough training.</h2>
+        </div>
+        <div class="three-column presenter-pain-grid">
+          <article class="info-card focus-card">
+            <span class="card-index">Small Churches</span>
+            <h3>Need a place to start</h3>
+            <p>Volunteer-led. Limited time. Limited budget.</p>
+          </article>
+          <article class="info-card focus-card">
+            <span class="card-index">Medium Churches</span>
+            <h3>Need consistency</h3>
+            <p>Systems exist, but depth and training rhythm are uneven.</p>
+          </article>
+          <article class="info-card focus-card">
+            <span class="card-index">Large Churches</span>
+            <h3>Need scale</h3>
+            <p>Ongoing onboarding, standards, and volunteer multiplication still matter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Opportunity">
+      <div class="slide-shell two-column">
+        <article class="panel reach-panel presenter-opportunity-panel">
+          <p class="eyebrow">Scope And Reach</p>
+          <h2>The ministry opportunity is already massive.</h2>
+          <div class="metrics presenter-metrics">
+            <div>
+              <strong>1,500+</strong>
+              <span>Dallas County churches</span>
+            </div>
+            <div>
+              <strong>22k-30k</strong>
+              <span>Texas churches</span>
+            </div>
+            <div>
+              <strong>357k</strong>
+              <span>U.S. congregations</span>
+            </div>
+            <div>
+              <strong>LatAm</strong>
+              <span>Major multilingual growth potential</span>
+            </div>
+          </div>
+        </article>
+        <article class="panel presenter-team-panel">
+          <p class="eyebrow">Team Advantage</p>
+          <h2>The founding context already fits the mission.</h2>
+          <div class="tag-cluster">
+            <span>Ministry relationships</span>
+            <span>Production experience</span>
+            <span>Brazil + U.S. cultural fluency</span>
+            <span>Low-cost starting access</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Vision">
+      <div class="slide-shell two-column">
+        <article class="panel vision-panel presenter-vision-panel">
+          <p class="eyebrow">Vision</p>
+          <h2>Equip the global church for excellence in production and worship.</h2>
+          <div class="vision-diagram" aria-hidden="true">
+            <div class="diagram-grid"></div>
+            <div class="diagram-connector connector-a"></div>
+            <div class="diagram-connector connector-b"></div>
+            <div class="diagram-ring ring-a"></div>
+            <div class="diagram-ring ring-b"></div>
+            <div class="diagram-ring ring-c"></div>
+            <div class="diagram-circle circle-a">
+              <span>Train</span>
+            </div>
+            <div class="diagram-circle circle-b">
+              <span>Strengthen</span>
+            </div>
+            <div class="diagram-circle circle-c">
+              <span>Reach</span>
+            </div>
+          </div>
+        </article>
+        <article class="panel accent-panel presenter-mission-panel">
+          <p class="eyebrow">Mission</p>
+          <h2>Accessible. Free. Spiritually aligned.</h2>
+          <p class="lead-short">Give churches practical production training they can apply in real services.</p>
+          <div class="mission-points">
+            <span>Lower barriers</span>
+            <span>Build confidence</span>
+            <span>Protect ministry health</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Foundation">
+      <div class="slide-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Spiritual Foundation</p>
+          <h2>This is not just a tech project. It is ministry formation.</h2>
+        </div>
+        <div class="principles-list presenter-principles">
+          <article class="principle-card">
+            <h3>Prayer</h3>
+            <p>Direction before strategy.</p>
+            <span>Prayer statement in notes</span>
+          </article>
+          <article class="principle-card">
+            <h3>Stewardship</h3>
+            <p>Technology should serve worship faithfully.</p>
+            <span>1 Peter 4:10-11</span>
+          </article>
+          <article class="principle-card">
+            <h3>Edification</h3>
+            <p>Order and clarity should build the church up.</p>
+            <span>1 Corinthians 14:26</span>
+          </article>
+          <article class="principle-card">
+            <h3>Equipping</h3>
+            <p>Train people so ministry is multiplied.</p>
+            <span>Ephesians 4:11-13</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Goals">
+      <div class="slide-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Five Goals</p>
+          <h2>The ministry can be explained in five simple words.</h2>
+        </div>
+        <div class="goals-grid presenter-goals-grid">
+          <article class="info-card goal-card">
+            <span class="card-index">01</span>
+            <h3>Accessibility</h3>
+            <p>Free access and clear starting points.</p>
+          </article>
+          <article class="info-card goal-card">
+            <span class="card-index">02</span>
+            <h3>Excellence</h3>
+            <p>Reliable systems and practical readiness.</p>
+          </article>
+          <article class="info-card goal-card">
+            <span class="card-index">03</span>
+            <h3>Empowerment</h3>
+            <p>Volunteers and leaders grow with confidence.</p>
+          </article>
+          <article class="info-card goal-card">
+            <span class="card-index">04</span>
+            <h3>Impact</h3>
+            <p>Help the Gospel be heard clearly.</p>
+          </article>
+          <article class="info-card goal-card goal-card-wide">
+            <span class="card-index">05</span>
+            <h3>Prayer</h3>
+            <p>Keep excellence submitted to spiritual alignment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Model">
+      <div class="slide-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Operating Model</p>
+          <h2>ChurchTech Academy works like a ministry training system.</h2>
+        </div>
+        <div class="revision-flow presenter-flow-grid">
+          <article class="revision-step">
+            <span class="card-index">Step 1</span>
+            <h3>Train Teams</h3>
+            <p>Give churches practical lessons for real service roles.</p>
+          </article>
+          <article class="revision-step">
+            <span class="card-index">Step 2</span>
+            <h3>Standardize Ministry</h3>
+            <p>Provide pathways, checklists, and repeatable workflows.</p>
+          </article>
+          <article class="revision-step">
+            <span class="card-index">Step 3</span>
+            <h3>Strengthen Worship</h3>
+            <p>Support clearer communication, order, and service health.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Curriculum">
+      <div class="slide-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Core Curriculum</p>
+          <h2>Five program areas cover the main ministry production ecosystem.</h2>
+        </div>
+        <div class="program-grid presenter-program-grid">
+          <article class="info-card program-card">
+            <span class="card-index">Area 1</span>
+            <h3>Audio</h3>
+            <p>Clarity, mixing, troubleshooting.</p>
+          </article>
+          <article class="info-card program-card">
+            <span class="card-index">Area 2</span>
+            <h3>Video &amp; Broadcast</h3>
+            <p>Camera, switching, livestream support.</p>
+          </article>
+          <article class="info-card program-card">
+            <span class="card-index">Area 3</span>
+            <h3>Lighting</h3>
+            <p>Visibility, atmosphere, consistency.</p>
+          </article>
+          <article class="info-card program-card">
+            <span class="card-index">Area 4</span>
+            <h3>Worship Ministry</h3>
+            <p>Service-minded worship support and leadership.</p>
+          </article>
+          <article class="info-card program-card program-card-wide">
+            <span class="card-index">Area 5</span>
+            <h3>Leadership &amp; Team Management</h3>
+            <p>Train leaders who build teams, culture, and healthy systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Pathway">
+      <div class="slide-shell two-column">
+        <article class="panel levels-panel">
+          <p class="eyebrow">Training Pathway</p>
+          <div class="level-stack">
+            <div class="level-item">
+              <strong>Beginner</strong>
+              <span>Start serving.</span>
+            </div>
+            <div class="level-item">
+              <strong>Intermediate</strong>
+              <span>Build consistency.</span>
+            </div>
+            <div class="level-item">
+              <strong>Advanced</strong>
+              <span>Carry weekly responsibility.</span>
+            </div>
+            <div class="level-item">
+              <strong>Team Leader</strong>
+              <span>Train and multiply others.</span>
+            </div>
+          </div>
+        </article>
+        <article class="panel support-panel presenter-support-panel">
+          <p class="eyebrow">Support Layer</p>
+          <h3>Learning is reinforced by interaction, not just content uploads.</h3>
+          <ul class="detail-list support-list">
+            <li>Live discussion and Q&amp;A sessions</li>
+            <li>Follow-up for ministry-specific questions</li>
+            <li>Multilingual growth over time</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Delivery">
+      <div class="slide-shell two-column">
+        <article class="panel">
+          <p class="eyebrow">Method</p>
+          <div class="method-stack presenter-method-stack">
+            <article class="info-card method-card">
+              <span class="card-index">01</span>
+              <h3>Demonstrate</h3>
+              <p>Show gear and workflow in action.</p>
+            </article>
+            <article class="info-card method-card">
+              <span class="card-index">02</span>
+              <h3>Teach Visually</h3>
+              <p>Short video lessons for review.</p>
+            </article>
+            <article class="info-card method-card">
+              <span class="card-index">03</span>
+              <h3>Discuss</h3>
+              <p>Answer real ministry questions live.</p>
+            </article>
+          </div>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Material</p>
+          <h2 class="support-heading presenter-support-heading">A modest but real production environment is enough to begin.</h2>
+          <div class="tag-cluster resource-tags">
+            <span>Cameras + audio gear</span>
+            <span>Recording space</span>
+            <span>Slides + handouts</span>
+            <span>Hosting + logins</span>
+            <span>Translation assets</span>
+            <span>Church environment demos</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Organization">
+      <div class="slide-shell two-column">
+        <article class="panel org-chart-panel">
+          <p class="eyebrow">Organization</p>
+          <div class="org-chart-frame org-chart-frame-prototype">
+            <div class="org-visual" aria-hidden="true">
+              <div class="org-grid"></div>
+              <div class="org-link org-link-vertical-top"></div>
+              <div class="org-link org-link-horizontal-mid"></div>
+              <div class="org-link org-link-vertical-mid"></div>
+              <div class="org-link org-link-horizontal-bottom"></div>
+              <div class="org-link org-link-left-down"></div>
+              <div class="org-link org-link-center-down"></div>
+              <div class="org-link org-link-right-down"></div>
+
+              <div class="org-node org-node-director">
+                <span>Founding Director</span>
+              </div>
+              <div class="org-node org-node-admin">
+                <span>Operations Administrator</span>
+              </div>
+              <div class="org-node org-node-production">
+                <span>Production Team</span>
+              </div>
+              <div class="org-node org-node-partnerships">
+                <span>Partnerships + Marketing</span>
+              </div>
+              <div class="org-node org-node-support">
+                <span>Volunteer Support</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="panel presenter-role-panel">
+          <p class="eyebrow">Leadership Shape</p>
+          <div class="position-stack">
+            <article class="position-item">
+              <h3>Direction</h3>
+              <p>Mission, vision, biblical alignment.</p>
+            </article>
+            <article class="position-item">
+              <h3>Operations</h3>
+              <p>Scheduling, systems, communication, access.</p>
+            </article>
+            <article class="position-item">
+              <h3>Execution</h3>
+              <p>Content, partnerships, volunteer support.</p>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Review">
+      <div class="slide-shell two-column">
+        <article class="panel evaluation-timeline-panel">
+          <p class="eyebrow">Evaluation</p>
+          <h2 class="support-heading presenter-support-heading">Review begins after the pilot and keeps the ministry honest.</h2>
+          <div class="evaluation-timeline">
+            <article class="evaluation-item">
+              <span class="card-index">Weekly</span>
+              <p>Workflow and quality checks.</p>
+            </article>
+            <article class="evaluation-item">
+              <span class="card-index">Monthly</span>
+              <p>Engagement and church feedback.</p>
+            </article>
+            <article class="evaluation-item">
+              <span class="card-index">Quarterly</span>
+              <p>Program impact and strategic progress.</p>
+            </article>
+            <article class="evaluation-item">
+              <span class="card-index">Annual</span>
+              <p>Mission alignment and sustainability review.</p>
+            </article>
+          </div>
+        </article>
+        <article class="panel evaluation-details-panel">
+          <p class="eyebrow">Review Lenses</p>
+          <div class="evaluation-stack">
+            <article class="info-card evaluation-card">
+              <span class="card-index">Spiritual</span>
+              <p>Is the ministry healthy and biblically aligned?</p>
+            </article>
+            <article class="info-card evaluation-card">
+              <span class="card-index">Practical</span>
+              <p>Are churches applying the training effectively?</p>
+            </article>
+            <article class="info-card evaluation-card">
+              <span class="card-index">Strategic</span>
+              <p>What should improve next for greater reach and clarity?</p>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Revision">
+      <div class="slide-shell two-column">
+        <article class="panel revision-panel">
+          <p class="eyebrow">Revised Needs</p>
+          <h2 class="support-heading presenter-support-heading">Evaluation should trigger decisions, not just reports.</h2>
+          <div class="revision-flow">
+            <article class="revision-step">
+              <span class="card-index">Detect</span>
+              <p>Find friction, gaps, or new opportunity.</p>
+            </article>
+            <article class="revision-step">
+              <span class="card-index">Respond</span>
+              <p>Adjust content, systems, language, or support.</p>
+            </article>
+            <article class="revision-step">
+              <span class="card-index">Strengthen</span>
+              <p>Improve the next round of ministry impact.</p>
+            </article>
+          </div>
+        </article>
+        <article class="panel revision-examples-panel">
+          <p class="eyebrow">Examples</p>
+          <div class="revision-example-stack">
+            <article class="info-card revision-example-card">
+              <span class="card-index">Format</span>
+              <h3>Shorter course tracks</h3>
+              <p>If learners stall in long modules, break them into clearer steps.</p>
+            </article>
+            <article class="info-card revision-example-card">
+              <span class="card-index">Language</span>
+              <h3>Earlier multilingual rollout</h3>
+              <p>If Latin American demand rises quickly, move translation higher on the roadmap.</p>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" data-title="Closing">
+      <div class="slide-shell closing">
+        <article class="panel wide-panel presenter-closing-panel">
+          <p class="eyebrow">Closing Summary</p>
+          <h2>ChurchTech Academy exists to strengthen the people behind the service.</h2>
+          <p class="lead">
+            In this prototype, the presenter says the details, and the slide only carries the structure, emphasis, and memory.
+          </p>
+          <div class="closing-points">
+            <span>Clearer live delivery</span>
+            <span>Cleaner slide rhythm</span>
+            <span>Details preserved in documentation</span>
+            <span>Same ministry vision</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <nav class="controls" aria-label="Presentation controls">
+    <button id="prev-button" type="button">Previous</button>
+    <div id="dot-nav" class="dot-nav" aria-label="Slide selection"></div>
+    <button id="next-button" type="button">Next</button>
+  </nav>
+
+  <div class="progress-track" aria-hidden="true">
+    <div id="progress-bar" class="progress-bar"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
